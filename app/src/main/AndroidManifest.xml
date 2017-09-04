@@ -22,9 +22,9 @@
         <activity android:name=".WeatherActivity" />
 
         <service
-            android:name=".service.Service"
+            android:name=".service.AutoUpdateService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
     </application>
 
 </manifest>
